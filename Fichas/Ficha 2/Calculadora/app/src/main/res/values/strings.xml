@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="times">*</string>
+    <string name="divide">/</string>
+    <string name="second_number">Segundo número</string>
+    <string name="first_number">Primeiro número</string>
+    <string name="a_minha_primeira_calculadora">A minha primeira Calculadora</string>
+    <string name="primeiro_n_mero">Primeiro número</string>
+    <string name="segundo_n_mero">Segundo número</string>
+</resources>

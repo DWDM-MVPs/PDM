@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="contactos_da_escola">Contactos da Escola</string>
+    <string name="_3504_510_viseu">3504-510 Viseu</string>
+    <string name="telefone_232480500">Telefone: 232480500</string>
+    <string name="website_http_www_estgv_ipv_pt_estgv">Website: http://www.estgv.ipv.pt/estgv/</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="nome">Nome</string>
+    <string name="enviar">Enviar</string>
+    <string name="escola_superior_de_tecnologia_e_gest_o_de_viseu">Escola Superior de Tecnologia e Gestão de Viseu</string>
+    <string name="morada">Morada</string>
+    <string name="todo">TODO</string>
+    <string name="voltar">Voltar</string>
+    <string name="segundo_ecr">Segundo Ecrã</string>
+</resources>

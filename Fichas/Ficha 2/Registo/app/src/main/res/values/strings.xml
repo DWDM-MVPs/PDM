@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Registo</string>
+    <string name="nome">Nome</string>
+    <string name="criar_contacto">Criar Contacto</string>
+    <string name="telefone">Telefone</string>
+    <string name="e_mail">E-mail</string>
+</resources>

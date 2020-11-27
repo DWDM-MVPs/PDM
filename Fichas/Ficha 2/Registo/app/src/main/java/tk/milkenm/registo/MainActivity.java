@@ -28,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
             showToast("Preencha todos os campos!");
             return;
         }
+        
+        if (telefone.length() > 9)
+        {
+            showToast("O número de telefone não pode ser maior que 9 números");
+            return;
+        }
 
         Intent ci = new Intent(ContactsContract.Intents.Insert.ACTION)
                 .setType(ContactsContract.RawContacts.CONTENT_TYPE)

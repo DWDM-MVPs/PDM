@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Frutaria</string>
+    <string name="apple">Apple</string>
+    <string name="imagem">Imagem</string>
+    <string name="imagemso">ImagemSo</string>
+    <string name="lista_de_fruta">Lista de fruta</string>
+</resources>

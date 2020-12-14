@@ -20,10 +20,15 @@ public class MainActivity extends AppCompatActivity {
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent i = new Intent(MainActivity.this, DrinkCategoryActivity.class);
                 if (position == 0) {
-                    Intent i = new Intent(MainActivity.this, DrinkCategoryActivity.class);
-                    startActivity(i);
+                    i.putExtra(DrinkCategoryActivity.EXTRA_TYPE, "drink");
+                } else if (position == 1) {
+                    i.putExtra(DrinkCategoryActivity.EXTRA_TYPE, "food");
+                } else if (position == 2) {
+                    i.putExtra(DrinkCategoryActivity.EXTRA_TYPE, "shop");
                 }
+                startActivity(i);
             }
         };
 

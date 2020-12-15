@@ -36,7 +36,7 @@ public class DrinkCategoryActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i = new Intent(DrinkCategoryActivity.this, DrinkActivity.class);
-                i.putExtra(DrinkActivity.EXTRA_TYPE, EXTRA_TYPE);
+                i.putExtra("TYPE", type);
                 i.putExtra(DrinkActivity.EXTRA_DRINKID, (int) id);
                 startActivity(i);
             }
